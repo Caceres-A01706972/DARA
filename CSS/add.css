@@ -1,23 +1,330 @@
 
 
-.carta{
-    margin-left: 600px;
-    margin-top: 400px;
+
+.main-container{
+    margin: 200px auto;
+    
+}
+
+.cartas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    margin: 0 auto;
+    
+}
+
+
+
+.carta1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
     margin-bottom: 50px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 300px;
     border-radius: 25px;
+    background-color: white;
 }
 
-.carta:hover{
+.carta1:hover{
     box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
 }
 
-.carta-container{
+.carta1-container{
     padding: 2px 16px;
 }
 
-.carta-container h4{
+.carta1-container h4{
     margin-bottom: 20px;
 }
+
+.carta1 .fotosavila{
+    margin: 30px;
+    
+}
+
+
+
+
+.carta2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.carta2:hover{
+    box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
+}
+
+.carta2-container{
+    padding: 2px 16px;
+}
+
+.carta2-container h4{
+    margin-bottom: 20px;
+}
+
+.carta2 .fotosavila2{
+    margin: 30px;
+}
+
+
+
+
+
+.carta3{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.carta3:hover{
+    box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
+}
+
+.carta3-container{
+    padding: 2px 16px;
+}
+
+.carta3-container h4{
+    margin-bottom: 20px;
+}
+
+.carta3 .fotosavila3{
+    margin: 30px;
+}
+
+
+
+
+
+.cartas2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    margin: 0 auto;
+    
+}
+
+
+.carta4{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    border-radius: 25px;
+    background-color: white;
+    
+}
+
+.carta4:hover{
+    box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
+}
+
+.carta4-container{
+    padding: 2px 16px;
+}
+
+.carta4-container h4{
+    margin-bottom: 20px;
+}
+
+.carta4 .fotosavila4{
+    margin: 30px;
+}
+
+
+
+
+.carta5{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    border-radius: 25px;
+    background-color: white;
+    
+}
+
+.carta5:hover{
+    box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
+}
+
+.carta5-container{
+    padding: 2px 16px;
+}
+
+.carta5-container h4{
+    margin-bottom: 20px;
+}
+
+.carta5 .fotosavila5{
+    margin: 30px;
+}
+
+
+
+
+.carta6{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.carta6:hover{
+    box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
+}
+
+.carta6-container{
+    padding: 2px 16px;
+}
+
+.carta6-container h4{
+    margin-bottom: 20px;
+}
+
+.carta6 .fotosavila6{
+    margin: 30px;
+}
+
+
+
+
+
+
+
+.cartas3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    margin: 0 auto;
+    
+}
+
+
+
+.carta7{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    border-radius: 25px;
+    background-color: white;
+    
+}
+
+.carta7:hover{
+    box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
+}
+
+.carta7-container{
+    padding: 2px 16px;
+}
+
+.carta7-container h4{
+    margin-bottom: 20px;
+}
+
+.carta7 .fotosavila7{
+    margin: 30px;
+}
+
+
+
+
+
+
+.carta8{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.carta8:hover{
+    box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
+}
+
+.carta8-container{
+    padding: 2px 16px;
+}
+
+.carta8-container h4{
+    margin-bottom: 20px;
+}
+
+.carta8 .fotosavila8{
+    margin: 30px;
+}
+
+
+
+
+
+.carta9{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.carta9:hover{
+    box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
+}
+
+.carta9-container{
+    padding: 2px 16px;
+}
+
+.carta9-container h4{
+    margin-bottom: 20px;
+}
+
+.carta9 .fotosavila9{
+    margin: 30px;
+}
+
+
+
