@@ -24,6 +24,7 @@
     align-items: center;
 }
 
+
 .menu-wrap .toggler{
     position: absolute;
     top: 0;
@@ -77,13 +78,14 @@
 
 .menu-wrap .toggler:checked + .hamburger > div {
     transform: rotate(135deg);
-    
+    background-color: white;
 }
 
 .menu-wrap .toggler:checked + .hamburger > div:before,
 .menu-wrap .toggler:checked + .hamburger > div:after{
     top: 0;
     transform: rotate(90deg);
+    background-color: white;
     
 
 }

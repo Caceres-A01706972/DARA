@@ -93,9 +93,7 @@ body{
     margin-left: 50px;
     margin-top: 50px;
 }
-#suggestions{
-    text-decoration-line: underline;
-    text-decoration-color: #0FC100;  
+#suggestions{ 
     font-size: 24px;
 }
 
@@ -258,7 +256,7 @@ body{
 
 .select-box select{
     height: 42px;
-    padding: 10px 15px;
+    padding: 5px 15px;
     line-height: 18px;
     font-size: 16px;
     width: 100%;
