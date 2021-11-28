@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DARA</title>
     <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/bubble.css">
     <link rel="stylesheet" href="/CSS/menu.css" >
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?
 family=Material+Icons">
@@ -16,32 +17,40 @@ family=Material+Icons">
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
     crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script>"https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js"</script>
+    <script>"https://www.gstatic.com/firebasejs/9.5.0/firebase-database.js"</script>
 </head>
 <body>
     
     <script type="module">
         // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-analytics.js";
+        import { initializeApp } from "/firebase/app";
         // TODO: Add SDKs for Firebase products that you want to use
         // https://firebase.google.com/docs/web/setup#available-libraries
       
         // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
         const firebaseConfig = {
-          apiKey: "AIzaSyDeoGxgKudFaaj9y3gs7tcgMzQsjBV4Nco",
-          authDomain: "dara-8ff3a.firebaseapp.com",
-          projectId: "dara-8ff3a",
-          storageBucket: "dara-8ff3a.appspot.com",
-          messagingSenderId: "1045620652888",
-          appId: "1:1045620652888:web:c21f53dbc332d9799c432d",
-          measurementId: "G-835ECNJNDP"
+          apiKey: "AIzaSyAKyAjxAkpF9XBPF_pkvRO67bGCCEw8XaE",
+          authDomain: "dara-d66da.firebaseapp.com",
+          databaseURL: "https://dara-d66da-default-rtdb.firebaseio.com",
+          projectId: "dara-d66da",
+          storageBucket: "dara-d66da.appspot.com",
+          messagingSenderId: "710329915443",
+          appId: "1:710329915443:web:9e72382b8b22f5a4fbeb46"
         };
       
         // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-    </script>
+        firebase.initializeApp(firebaseConfig);
+        var firebaseRef = firebase.database().ref("Sensor 1");
+        firebase.once("value", function(snapshot){
+            var data = snapshot.val();
+            for (let i in data){
+                console.log(data[i]);
+            }
+        })
+
+
+      </script>
 
 
 
@@ -165,13 +174,31 @@ family=Material+Icons">
         </div>
     </div>
 
+
+
+    <div>
+        <ul>
+            <li class="bubble menu"><button>+</button></li>
+            <li class="bubble"><img src="/Images/savila.jpg" class="plants"></li>
+            <li class="bubble"><img src="/Images/savila.jpg" class="plants"></li>
+            <li class="bubble"><img src="/Images/savila.jpg" class="plants"></li>
+            <li class="bubble"><img src="/Images/savila.jpg" class="plants"></li>
+            <li class="bubble"><button class="boton">Press</button></li>
+            <li class="bubble"><img src="/Images/savila.jpg" class="plants"></li>
+        </ul>
+
+    </div>
+
     
-    <div class="circle">
-        <div class="circle-container">
-            <h3 style="text-align: center; color: white; font-weight: bolder;" class="plus"><a href="add.html">+</a></h3>
-        </div>
+    <div id="nuevo-container">
+        
     </div>
     
+
+
+    
+    <!--<div class="nuevo" id="nuevo-container"></div>-->
+    <!--<div class="circlee"></div>-->
 
 
 <!--
@@ -191,8 +218,6 @@ family=Material+Icons">
     </div>
     -->
 </body>
-
-
-
+<script type="text/javascript" src="/javascript/test.js"></script>
 
 </html>
