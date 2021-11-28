@@ -107,6 +107,7 @@ body{
     transition: 0.3s;
     width: 300px;
     border-radius: 25px;
+    /*background: url('https://www.pinclipart.com/picdir/big/317-3170981_abstract-wave-vector-clipart.png');*/
 }
 
 .card1 .fotosavila{
@@ -119,6 +120,7 @@ body{
 }
 
 .card-container{
+    background-color: white;
     padding: 2px 16px;
     
 }
@@ -230,11 +232,15 @@ body{
     font-size: 80px;
 }
 
-.circle-container .plus > a{
+
+
+
+
+/*.circle-container .plus > a{
     color: inherit;
     text-decoration: none;
 }
-
+*/
 
 
 
@@ -273,6 +279,119 @@ body{
     border-right: 6px solid transparent;
     pointer-events: none;
 }
+
+
+
+
+.circlee{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: #000;
+
+    position: relative;
+    overflow: hidden;
+    border: 5px solid #1a1a1a;
+
+}
+
+.circlee:after{
+    content: "";
+    position: absolute;
+    top: 25%;
+    width: 200%;
+    height: 200%;
+    left: -50%;
+
+    background: rgba(83, 252, 83, 0.5);
+    box-shadow: 0 0 20px #03bc03;
+
+    border-radius: 40%;
+    animation: rotate 10s linear forwards infinite;
+
+}
+
+@keyframes rotate{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.nueva-carta{
+   /* width: 300px;
+    height: 384.39px;
+    box-shadow: 0px 0px 10px black;*/
+
+
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    border-radius: 25px;
+}
+
+
+/*
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    border-radius: 25px;
+}/*
+
+/*
+#cardsadd{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    margin: 0 auto;
+}*/
+
+
+
+
+.nueva-carta:hover{
+    box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
+}
+
+.carta-container{
+    padding: 2px 16px;
+}
+
+.nueva-carta h4{
+    margin-bottom: 20px;
+}
+
+.nueva-carta .fotosavila6{
+    margin: 30px;
+}
+
+#nuevo-container{
+
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    margin-right: 135px;
+}
+
+.foto-planta{
+    margin-left: 30px;
+    width: 250px;
+}
+
+
+
+
 
 /*
 nav{
