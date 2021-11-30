@@ -155,21 +155,21 @@ family=Material+Icons">
 
     <div class="cards">
         <div class="card1">
-            <a href="lengua.html"><img src="/Images/lengua.jpg" style="width: 250px;" class="fotosavila"></a>
+            <img src="/Images/savila.jpg" style="width: 250px;" class="fotosavila">
             <div class="card-container">
-                <h4 style="text-align: center;">Lengua de Suegra</h4>
+                <h4 style="text-align: center;">Savila</h4>
             </div>
         </div>
         <div class="card2">
-            <a href="ficus.html"><img src="/Images/ficus.png" style="width: 200px; margin-top: 80px;" class="fotosavila2"></a>
+            <img src="/Images/savila.jpg" style="width: 250px;" class="fotosavila2">
             <div class="card2-container">
-                <h4 style="text-align: center;">Ficus</h4>
+                <h4 style="text-align: center;">Savila</h4>
             </div>
         </div>
         <div class="card3">
-            <a href="monstera.html"><img src="/Images/monstera.png" style="width: 250px;" class="fotosavila3"></a>
+            <img src="/Images/savila.jpg" style="width: 250px;" class="fotosavila3">
             <div class="card3-container">
-                <h4 style="text-align: center;">Monstera</h4>
+                <h4 style="text-align: center;">Savila</h4>
             </div>
         </div>
     </div>
@@ -179,23 +179,17 @@ family=Material+Icons">
     <div>
         <ul>
             <li class="bubble menu"><button>+</button></li>
-            <li class="bubble"><img src="/Images/suculenta.png" class="plants-suculenta"></li>
-            <li class="bubble"><img src="/Images/lirios.png" class="plants-lirios"></li>
-            <li class="bubble"><img src="/Images/jade.png" class="plants-jade"></li>
-            <li class="bubble"><img src="/Images/cactus.png" class="plants-cactus"></li>
-            <li class="bubble"><img src="/Images/anturio.png" class="plants-anturio"></li>
-            <!--<li class="bubble"><img src="/Images/savila.jpg" class="plants"></li>-->
+            <li class="bubble"><img src="/Images/savila.jpg" class="plants"></li>
+            <li class="bubble"><img src="/Images/savila.jpg" class="plants"></li>
+            <li class="bubble"><img src="/Images/savila.jpg" class="plants"></li>
+            <li class="bubble"><img src="/Images/savila.jpg" class="plants"></li>
+            <li class="bubble"><img src="/Images/savila.jpg" class="plants"></li>
+            <li class="bubble"><img src="/Images/savila.jpg" class="plants"></li>
         </ul>
 
     </div>
-
     
-    <div id="nuevo-container">
-        
-    </div>
     
-
-
     
     <!--<div class="nuevo" id="nuevo-container"></div>-->
     <!--<div class="circlee"></div>-->
@@ -218,6 +212,6 @@ family=Material+Icons">
     </div>
     -->
 </body>
-<script type="text/javascript" src="/javascript/addPlant.js"></script>
+<script type="text/javascript" src="/javascript/test.js"></script>
 
 </html>

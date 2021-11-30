@@ -66,17 +66,45 @@ ul {
     transition-delay: 0.8s;
     
   }
-
+/*
   .bubble.menu.active ~ .bubble:nth-of-type(7) {
     transform: translateY(-600px);
     transition-delay: 1s;
     
   }
-
-
+*/
   .plants{
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+}
+
+  .plants-suculenta{
+      margin: 0 auto;
+      height: 50px;
+      width: 50px;
+  }
+
+  .plants-lirios{
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+  }
+
+  .plants-jade{
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+  }
+
+  .plants-cactus{
       margin: 0 auto;
       height: 50px;
       width: 50px;
   }
   
+  .plants-anturio{
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+  }

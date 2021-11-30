@@ -120,7 +120,7 @@ body{
 }
 
 .card-container{
-    background-color: white;
+    
     padding: 2px 16px;
     
 }
@@ -284,14 +284,14 @@ body{
 
 
 .circlee{
-    height: 250px;
-    width: 250px;
+    height: 50px; /*Estaba en 250px*/
+    width: 50px; /*Estaba en 250px*/
     border-radius: 50%;
-    background-color: #000;
+    background-color: rgb(255, 255, 255);
 
     position: relative;
     overflow: hidden;
-    border: 5px solid #1a1a1a;
+    border: 2px solid #f8f8f8;
 
 }
 
@@ -303,8 +303,8 @@ body{
     height: 200%;
     left: -50%;
 
-    background: rgba(83, 252, 83, 0.5);
-    box-shadow: 0 0 20px #03bc03;
+    background: rgba(8, 135, 185, 0.5);
+    box-shadow: 0 0 20px #52d1e2;
 
     border-radius: 40%;
     animation: rotate 10s linear forwards infinite;

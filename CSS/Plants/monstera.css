@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-card{
+    /*margin: 200px auto;
+    background-color: violet;*/
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 108px;
+    /*padding: auto;*/
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    width: 680px;
+    height: 469px;
+    border-radius: 25px;
+    background-color: white;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-top: 0px;
+}
+
+.name{
+    padding-bottom: 4px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.line{
+    width: 165px;
+    margin-left: 70px;
+    margin-top: -3px;
+    height: 2px; 
+    opacity: 100%;
+    margin-bottom: 40px;
+    border-color: #0FC100;
+}
+
+.inner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    position: center;
+}
+
+.foto1{
+    position: relative;
+    width: 250px;
+    height: 430px;
+    
+}
+
+.foto2{
+    margin-top: 50px;
+    position: absolute;
+    width: 250px;
+}
+
+.information{
+    margin-top: 60px;
+}
+
+.humidity-rectangle{
+    width: 200px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    transition: 0.3s;
+    
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.4);
+
+}
+
+.rectangle-2{
+    margin-top: 50px;
+}
+
+.optimal-rectangle{
+    
+    width: 200px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    transition: 0.3s;
+    
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.4);
+}
+
+h5{
+    font-style: italic;
+    margin-left: 69px;
+    color: grey; 
+}
+
+.adentro{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    position: center;
+    width: 100px;
+    margin-left: 20px;;
+}
+
+.gota{
+    width: 20px;
+    padding-top: 13px;
+}
+
+.lectura-sensor{
+    text-align: left;
+    padding-top: 15px;
+    width: 150px;
+    position: center;
+    
+}
+
+.green-check{
+    width: 25px;
+    padding-top: 14px;
+
+}
+
+.optimal-text{
+    text-align: center;
+    padding-top: 15px;
+    width: 100px;
+    position: center;
+}
