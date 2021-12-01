@@ -1,4 +1,5 @@
 
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js";
 import { getDatabase, ref, child, get } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-database.js";
@@ -30,3 +31,8 @@ get(child(dbRef, `Registros /Sensor 1/Lectura`)).then((snapshot) => {
 }).catch((error) => {
     console.error(error);
 });
+
+
+
+
+
